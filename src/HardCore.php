@@ -2,6 +2,8 @@
 
 namespace repat\HardCoreDebugLogger;
 
+use repat\HardCoreFilter;
+
 final class HardCore
 {
     const PROTOCOLS = ['file', 'phar'];
