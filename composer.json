@@ -1,0 +1,25 @@
+{
+    "name": "repat/hardcoredebuglogger",
+    "description": "HardCoreDebugLogger helps you find segfaults",
+    "keywords": ["hardcore","debuglogger","segfault"],
+    "homepage": "http://repat.de",
+    "license": "MIT",
+    "version" : "0.1",
+    "authors": [
+        {"name": "Grégoire Pineau", "email": "lyrixx@lyrixx.info"},
+        {"name": "repat", "email": "repat@repat.de"}
+    ],
+	"type": "library",
+    "require": {
+		"php": ">=7.0"
+	},
+    "autoload": {
+        "files" : [
+            "HardCoreDebugLogger.php"
+        ],
+        "psr-0": {
+          "Repat\\HardCoreDebugLogger\\": "src/"
+        }
+    },
+    "minimum-stability" : "dev"
+}
